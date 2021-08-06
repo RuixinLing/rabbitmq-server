@@ -17,6 +17,9 @@
 -define(INSTANCE_AZ, "placement/availability-zone").
 -define(INSTANCE_HOST, "169.254.169.254").
 
+-define(LINEAR_BACK_OFF_MILLIS, 1000).
+-define(MAX_RETRIES, 30).
+
 % rabbitmq/rabbitmq-peer-discovery-aws#25
 
 % Note: this timeout must not be greater than the default
